@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { DemoAngularMaterialModule } from './DemoAngularMaterialModule';
 import { LoginComponent } from './login/login.component';
-import { InscreverComponent } from './inscrever/inscrever.component';
+import { SignupComponent } from './signup/signup.component';
 
 
 
@@ -15,7 +15,7 @@ import { InscreverComponent } from './inscrever/inscrever.component';
   declarations: [
     AppComponent,
     LoginComponent,
-    InscreverComponent
+    SignupComponent
   ],
   imports: [
     BrowserModule,
