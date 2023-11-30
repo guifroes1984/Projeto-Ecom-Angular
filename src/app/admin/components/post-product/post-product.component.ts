@@ -66,7 +66,7 @@ export class PostProductComponent {
 
       this.adminService.addProduct(formData).subscribe((res) => {
         if (res.id != null) {
-          this.snackBar.open('Produto Postado com Sucesso!', 'Fechar', {
+          this.snackBar.open('Produto Cadastrado com Sucesso!', 'Fechar', {
             duration: 5000
           });
           this.router.navigateByUrl('/admin/dashboard');
